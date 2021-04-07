@@ -1,0 +1,15 @@
+{
+  "name": "ApolloGraphQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client and yarn start",
+    "server": "cd server and node index.js",
+    "dev": "concurrently --kill-others-on-fail"
+  },
+  "dependencies": {
+    "concurrently": "^6.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
